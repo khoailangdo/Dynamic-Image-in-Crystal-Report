@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="DataSets" type="dataSets"/>
+
+  <xs:complexType name="dataSets">
+    <xs:sequence>
+      <xs:element name="image_stream" type="xs:base64Binary" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
